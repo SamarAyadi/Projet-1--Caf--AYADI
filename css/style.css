@@ -20,8 +20,41 @@ a{
   text-decoration: none;
 }
 
+.sparator{
+  width: 100px;
+  height: 10px;
+  background: #111;
+  margin: 20px auto;
+}
+p{
+  margin-bottom: 10px;
+}
 
 
+.btn{
+ display: inline-block; 
+padding: 15px 25px;
+border-radius: 30px;
+font-weight: 700;
+font-size: 14px;
+
+}
+
+.btn-primary{
+  background: white;
+  color: #222;
+}
+
+
+.btn-primary:hover{
+  background: #222;
+  color: white;
+}
+
+.my-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 
@@ -32,8 +65,6 @@ a{
   overflow: auto;
   line-height: 1.7em;
 }
-
-
 
 
 .header nav h1{
@@ -73,6 +104,36 @@ a{
 .active{
   background: #444;
 }
+
+/* -------------------------------------- */
+
+
+/* VP */
+.vp{
+  height: 700px;
+  background: url(../images/cafe1.jpg)center center/cover ;
+  text-align: center;
+}
+
+.vp-content {
+  color: white;
+  max-width: 600px;
+  padding-top: 150px;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1{
+  font-size: 50px ;
+}
+
+.vp-content p{
+  font-size: 18px ;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+
 
 
 
