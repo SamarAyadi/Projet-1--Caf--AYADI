@@ -10,6 +10,7 @@
 
 html, body{
   font-family: "Open Sans", sans-serif;
+  color:#222  ;
 }
 h1, h2, h3{
   margin-bottom: 20px;
@@ -30,6 +31,11 @@ p{
   margin-bottom: 10px;
 }
 
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
 
 .btn{
  display: inline-block; 
@@ -133,6 +139,18 @@ font-size: 14px;
   line-height: 1.9em;
 }
 
+
+/* Features */
+.features{
+  overflow: auto;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.feature{
+  float: left;
+  width: 50%;
+}
 
 
 
