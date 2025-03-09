@@ -31,10 +31,10 @@ p{
   margin-bottom: 10px;
 }
 
-span:hover{
+/* span:hover{
   color: rgb(9, 133, 190);
   font-weight: 900;
-}
+} */
 
 .container{
   max-width: 1000px;
@@ -84,6 +84,28 @@ border: 0;
 .my-20{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.underline{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.chip{
+  background: #333;
+  width: 28px;
+  display: inline-block;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.chip-purple{
+background-color: #de12a1;
+}
+
+.chip-brown{
+background-color: #d5780d;
 }
 
 
@@ -202,6 +224,23 @@ footer{
 }
 
 
+/* where */
+.where{
+  padding: 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img{
+float: left;
+width: 40%;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+.where-text{
+float: right;
+width: 50%;
+}
 
 
 
